@@ -244,6 +244,8 @@ header{
 .card-wrapper:hover .overlay{
   opacity: .6;
 }
+
+
 /* Contact */
 .contact .r-icon {
   font-size:50px;
