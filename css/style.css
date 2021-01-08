@@ -19,6 +19,7 @@ p{
   color:#6c757d;
 }
 
+}
 .divider{
     width:5px;
     height:auto;
@@ -242,7 +243,7 @@ header{
 }
 
 .card-wrapper:hover .overlay{
-  opacity: .6;
+  opacity: .8;
 }
 
 
