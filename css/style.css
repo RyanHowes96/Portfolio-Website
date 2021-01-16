@@ -47,7 +47,8 @@ p{
 
 .r-skills{
   padding-bottom:50px;
-  padding-left: 280px;
+
+
 }
 
 .r-p{
@@ -60,7 +61,7 @@ p{
 }
 
 .r-contact{
-
+  padding-bottom: 25px;
 }
 body{
    background: #FEFEFA;
@@ -187,6 +188,9 @@ header{
   transition: 0.5s all;
   text-align: center;
 }
+
+
+
 
 .about li a:hover{
   color:#E83F5E;
