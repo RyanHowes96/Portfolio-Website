@@ -194,13 +194,14 @@
             </div>
           </div>
         <!-- Image 3 -->
-          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="2">
+          <div class="col-xs-6 col-sm-4 col-md-4 filtr-item card-wrapper" data-category="1">
             <div>
-              <img src="images\Placeholder.png" class="img-fluid" alt="High Fidelity Design">
+              <img src="images\Sharestream.png" class="img-fluid" alt="UX Project">
               <div class="overlay">
                 <div class="overlayText">
-                  <h4>High Fidelity Design 1</h4>
-                  <h6>Currently a work in progress!</h6>
+                  <h4>Sharestream Social Media Project</h4>
+                  <h6>A livestream and social media website and mobile application designs.</h6>
+                  <button class="moreInfo">Learn More</button>
                 </div>
               </div>
             </div>
@@ -276,9 +277,6 @@
 
   </div>
 
-
-
-
   <!-- The Modal -->
   <div id="ORBT" class="modal">
 
@@ -305,6 +303,40 @@
     </div>
 
   </div>
+
+  <!-- The Modal -->
+  <div id="SHARE" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header d-block">
+        <span class="close">×</span>
+        <h4>Sharestream Social Media UX Project</h4>
+      </div>
+      <div class="modal-body">
+        <h6 style="text-align:center">UX Design and Development of a Social Media Website and Mobile App</h6>
+        <p>A livestreaming and social media website designed around the ease of sharing videos and livestreams with friends and the world.</p>
+        <p>Taking inspiration from livestreaming website Twitch and social media sites such as Facebook and Twitter, I have designed a social media site and mobile application with a focus around media sharing and livestreams.</p>
+        <p>Below are designs for the sign up page, homepage and profile pages in website and mobile variations.</p>
+
+        <img src="images\Sharestream Signup Web.png" alt="Sharestream Signup Page">
+        <img src="images\Sharestream Signup Mob.png" alt="Sharestream Signup Page Mobile">
+        <br><br>
+        <img src="images\Sharestream Home Web.png" alt="Sharestream Homepage" >
+        <img src="images\Sharestream Home Mob.png" alt="Sharestream Homepage Mobile" >
+        <br><br>
+        <img src="images\Sharestream Profile Web.png" alt="Sharestream Profile Page">
+        <img src="images\Sharestream Profile Mob.png" alt="Sharestream Profile Page Mobile">
+
+        <p style="text-align:center">Further designs can be seen in the github link provided below!</p>
+      </div>
+      <div class="modal-footer d-block">
+        <li class="list-inline-item"><a href="https://github.com/RyanHowes96/Social-Media-UX-Project"><i class="fab fa-github"></i></a></li>
+      </div>
+    </div>
+
+  </div>
+
   <!-- Contact -->
 
   <section class="contact r-p bg-sec" id="contact">
@@ -361,6 +393,10 @@
   btn[1].onclick = function() {
       modal[1].style.display = "block";
   }
+
+  btn[2].onclick = function() {
+      modal[2].style.display = "block";
+  }
   // When the user clicks on <span> (x), close the modal
   span[0].onclick = function() {
       modal[0].style.display = "none";
@@ -368,6 +404,10 @@
 
   span[1].onclick = function() {
       modal[1].style.display = "none";
+  }
+
+  span[2].onclick = function() {
+      modal[2].style.display = "none";
   }
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
